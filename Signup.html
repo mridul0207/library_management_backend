@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/auth/signup" method="post">
+        <input type="text" name="userName" placeholder="Username">
+        <input type="password" name="password" placeholder="Password">
+        <input type="password" name="confirmPassword" placeholder="Confirm Password">
+        <label for="accountType">Select an option:</label>
+            <select id="dropdown" name="accountType">
+            <option value="Librarian">Librarian</option>
+            <option value="Member">Member</option>
+            </select>
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
